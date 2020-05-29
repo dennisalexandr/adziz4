@@ -30,7 +30,7 @@
 
       <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
         <div class="container">
-          <a class="navbar-brand" href="index.php">PHP CRUD WITH IMAGE</a>
+          <a class="navbar-brand" href="index.php">PHP CRUD WITH IMAGE - NOW USING CODEDEPLOY</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
           </button>
