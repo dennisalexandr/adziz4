@@ -1,8 +1,8 @@
 <?php
-$host = "adziz4.cesx4in4qfud.us-east-1.rds.amazonaws.com";
-$username = "adziz4";
-$password = "adziz4321";
-$dbname = "adziz4";
+$host = "btugas5.cesx4in4qfud.us-east-1.rds.amazonaws.com";
+$username = "dbtugas5";
+$password = "ADSIS_DENNIS_WILDAN";
+$dbname = "dbtugas5";
 
 $conn = mysqli_connect($host, $username, $password, $dbname);
 if (!$conn) {
