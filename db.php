@@ -1,4 +1,4 @@
-$host = 'mysql';
+$host = 'dbtugas5.cesx4in4qfud.us-east-1.rds.amazonaws.com';
 $user = getenv('MYSQL_USER');
 $pass = getenv('MYSQL_PASSWORD');
  
