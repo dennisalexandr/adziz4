@@ -1,10 +1,12 @@
-$host = 'dbtugas5.cesx4in4qfud.us-east-1.rds.amazonaws.com';
-$user = getenv('MYSQL_USER');
-$pass = getenv('MYSQL_PASSWORD');
- 
-$conn = mysqli_connect($host, $user, $pass);
+<?php
+$host = "dbtugas5.cesx4in4qfud.us-east-1.rds.amazonaws.com";
+$username = "dbtugas5";
+$password = "ADSIS_DENNIS_WILDAN";
+$dbname = "dbtugas5";
+
+$conn = mysqli_connect($host, $username, $password, $dbname);
 if (!$conn) {
-    exit('Connection failed: '.mysqli_connect_error().PHP_EOL);
+	die("Connection failed: " . mysqli_connect_error());
 }
- 
-echo 'Successful database connection!'.PHP_EOL;
+
+?>
